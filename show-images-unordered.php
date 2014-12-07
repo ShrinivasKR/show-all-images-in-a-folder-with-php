@@ -17,6 +17,7 @@ $folder = 'img/';
 $filetype = '*.*';
 $files = glob($folder.$filetype);
 $count = count($files);
+echo($count);
  
 $sortedArray = array();
 for ($i = 0; $i < $count; $i++) {
