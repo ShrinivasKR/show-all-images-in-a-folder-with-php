@@ -14,8 +14,9 @@
 <?php
 date_default_timezone_set("Europe/Copenhagen");
 $folder = 'img/';
-$filetype = '*.*';
-$files = glob($folder.$filetype);
+//$filetype = '*.*';
+//$files = glob($folder.$filetype);
+$files = glob($folder);
 $count = count($files);
 //comment to push
 echo($count);
